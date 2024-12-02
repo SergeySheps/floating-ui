@@ -17,6 +17,7 @@ export type {
 } from './components/FloatingPortal';
 export type {CompositeProps, CompositeItemProps} from './components/Composite';
 export type {UseClickProps} from './hooks/useClick';
+export type {UseRightClickProps} from './hooks/useRightClick';
 export type {UseClientPointProps} from './hooks/useClientPoint';
 export type {UseDismissProps} from './hooks/useDismiss';
 export type {UseFocusProps} from './hooks/useFocus';
@@ -105,6 +106,7 @@ export type OpenChangeReason =
   | 'ancestor-scroll'
   | 'reference-press'
   | 'click'
+  | 'right-click'
   | 'hover'
   | 'focus'
   | 'focus-out'
